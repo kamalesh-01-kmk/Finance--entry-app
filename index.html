@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Entry App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Finance Entry Form</h1>
+        <form id="financeForm">
+            <label for="date">தேதி:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="amount">தொகை:</label>
+            <input type="number" id="amount" name="amount" required>
+
+            <label for="description">விவரம்:</label>
+            <input type="text" id="description" name="description" required>
+
+            <button type="submit">சேமிக்கவும்</button>
+        </form>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
